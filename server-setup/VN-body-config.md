@@ -4,13 +4,13 @@ nav_order: 4
 parent: SlimeVR setup
 ---
 
-# Body proportions configuration
+# Cài đặt bộ phận cơ thể
 
-SlimeVR uses a virtual skeleton to compute positions from the data it receives from your trackers. As part of the setup procedure, this skeleton is made using your real world measurements (in cm) for various body parts in order for SlimeVR to compute its skeleton accurately to your real body.
-While these values can be input directly into the SlimeVR server, it is recommended you use the skeleton auto-configuration system. Once you have completed the auto-configuration process, it is also recommended to use the measurements above to confirm the accuracy before finalising the automatic values. There is also an option to [visually check within VR](#configuring-body-proportions-in-vr), described at the bottom of this page.
+SlimeVR sử dụng xương giả để tính vị trí từ thông tin nhận được từ tracker. Trong khi cài đạt, bộ xương giả này được cấu hình từ đo độ dài thật của người (bằng cm) cho nhiều bộ phận cơ thể theo thứ tự cho SlimeVR để tính toán cơ thể chính xác.
+mặc dù các giá trị này có thể cho trực tiếp cho SlimeVR, sử dụng hệ thống tự động đo được khuyên dùng (auto-configuration system). Sau khi hoàn thành đo tự động (auto-configuration process), bạn nên xác định những số mà hệ thống tự động làm ra được là chính xác trước khi xác định con . Ngoài ra dưới đay cũng có lựa chọn [so sánh qua thị giác](#configuring-body-proportions-in-vr), mô tả dưới đây.
 
 
-## Measurements
+## Thước đo
 
 <table class="bpTable">
    <tr>
@@ -45,15 +45,15 @@ While these values can be input directly into the SlimeVR server, it is recommen
 </table>
 
 
-## Skeleton auto-configuration
+## Skeleton auto-configuration (Hệ thống đo xương tự động)
 
-Skeleton auto-configuration removes the need to manually input bone lengths using automatic bone length calculations recorded through user movements.
+Hệ thống đo xương tự động loại bỏ yêu cầu đo thủ công cơ thể bằng cách đo từ động qua cử động đo .
 
-This bypasses the need to manually set the bone lengths, although it is still possible to fine-tune values manually if needed.
+Bước này sẽ giúp bỏ qua bỏ số đo cơ nhưng ngoài ra sau đó hoàn toàn có thể chỉnh thủ công.
 
-### How to use
+### Cách sử dụng
 
-*Make sure the headset is ON and worn on your head during this process.*
+*Hãy đảm bảo kính thực tế ảo đang bật và đeo trên đầu trong suốt quá trình.*
 
 Before using skeleton auto-configuration, you must prepare your body proportion values by standing straight up and pressing the "Reset All" button under the "Body proportions" section. If this is not done, then the height value used in calculations will be incorrect.
 
