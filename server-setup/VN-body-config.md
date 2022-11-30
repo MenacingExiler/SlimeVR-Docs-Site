@@ -6,8 +6,8 @@ parent: SlimeVR setup
 
 # Cài đặt bộ phận cơ thể
 
-SlimeVR sử dụng xương giả để tính vị trí từ thông tin nhận được từ tracker. Trong khi cài đạt, bộ xương giả này được cấu hình từ đo độ dài thật của người (bằng cm) cho nhiều bộ phận cơ thể theo thứ tự cho SlimeVR để tính toán cơ thể chính xác.
-mặc dù các giá trị này có thể cho trực tiếp cho SlimeVR, sử dụng hệ thống tự động đo được khuyên dùng (auto-configuration system). Sau khi hoàn thành đo tự động (auto-configuration process), bạn nên xác định những số mà hệ thống tự động làm ra được là chính xác trước khi xác định con . Ngoài ra dưới đay cũng có lựa chọn [so sánh qua thị giác](#configuring-body-proportions-in-vr), mô tả dưới đây.
+SlimeVR sử dụng thân giả để tính vị trí từ thông tin nhận được từ tracker. Trong khi cài đạt, thân giả này được cấu hình từ đo độ dài thật của người (bằng cm) cho nhiều bộ phận cơ thể theo thứ tự cho SlimeVR để tính toán cơ thể chính xác.
+Tuy  thể đo thủ công cơ thể xong bỏ lên SlimeVR, sử dụng hệ thống tự động đo được khuyên dùng (auto-configuration system). Sau khi hoàn thành đo tự động (auto-configuration process), bạn nên xác định những số mà hệ thống tự động làm ra được là chính xác trước khi xác định con . Ngoài ra dưới đay cũng có lựa chọn [so sánh qua thị giác](#configuring-body-proportions-in-vr), mô tả dưới đây.
 
 
 ## Thước đo
@@ -45,9 +45,9 @@ mặc dù các giá trị này có thể cho trực tiếp cho SlimeVR, sử d�
 </table>
 
 
-## Skeleton auto-configuration (Hệ thống đo xương tự động)
+## Skeleton auto-configuration (Hệ thống đo thân tự động)
 
-Hệ thống đo xương tự động loại bỏ yêu cầu đo thủ công cơ thể bằng cách đo từ động qua cử động đo .
+Hệ thống đo tự động loại bỏ yêu cầu đo thủ công cơ thể bằng cách đo từ động qua cử động đo .
 
 Bước này sẽ giúp bỏ qua bỏ số đo cơ nhưng ngoài ra sau đó hoàn toàn có thể chỉnh thủ công.
 
