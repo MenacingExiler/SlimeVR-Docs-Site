@@ -7,7 +7,7 @@ parent: SlimeVR setup
 # Cài đặt bộ phận cơ thể
 
 SlimeVR sử dụng thân giả để tính vị trí từ thông tin nhận được từ tracker. Trong khi cài đạt, thân giả này được cấu hình từ đo độ dài thật của người (bằng cm) cho nhiều bộ phận cơ thể theo thứ tự cho SlimeVR để tính toán cơ thể chính xác.
-Tuy  thể đo thủ công cơ thể xong bỏ lên SlimeVR, sử dụng hệ thống tự động đo được khuyên dùng (auto-configuration system). Sau khi hoàn thành đo tự động (auto-configuration process), bạn nên xác định những số mà hệ thống tự động làm ra được là chính xác trước khi xác định con . Ngoài ra dưới đay cũng có lựa chọn [so sánh qua thị giác](#configuring-body-proportions-in-vr), mô tả dưới đây.
+Tuy có thể đo thủ công cơ thể xong bỏ lên SlimeVR, sử dụng hệ thống tự động đo được khuyên dùng (auto-configuration system). Sau khi hoàn thành đo tự động (auto-configuration process), bạn nên xác định những số mà hệ thống tự động làm ra được là chính xác trước khi xác định con . Ngoài ra dưới đay cũng có lựa chọn [so sánh qua thị giác](#configuring-body-proportions-in-vr), mô tả dưới đây.
 
 
 ## Thước đo
@@ -55,9 +55,9 @@ Bước này sẽ giúp bỏ qua bỏ số đo cơ nhưng ngoài ra sau đó ho�
 
 *Hãy đảm bảo kính thực tế ảo đang bật và đeo trên đầu trong suốt quá trình.*
 
-Before using skeleton auto-configuration, you must prepare your body proportion values by standing straight up and pressing the "Reset All" button under the "Body proportions" section. If this is not done, then the height value used in calculations will be incorrect.
+Trước khi có thể đo thân tự động, bạn phải chuẩn bị đo thân bằng cách đứng thẳng và bấm nút reset tất cả "Reset All" dưới cài đặt cơ thể ở mục "Body proportions". Nếu bước này không xong hệ thống sẽ có chỉ số sai, và tính toán chiều cao sẽ không chíxácxác.
 
-**VERY IMPORTANT:** During the recording, you **must** keep your heels in the same position, otherwise the values will be invalid.
+**RẤT QUAN TRỌNG:** Trong khi đo và ghi, bạn **phải** giữ  chân ở vị trí cố định, nếu không giá trị sẽ không chính xác.
 
 <div class="video-container">
 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/z_HhxXvwkk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
