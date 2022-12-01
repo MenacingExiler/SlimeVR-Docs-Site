@@ -1,6 +1,7 @@
 # SlimeVR Docs Site
 
 https://docs.slimevr.dev
+This repository is an attempt to add extra languages. The extra language added is Vietnamese.
 
 ## Contributions
 
